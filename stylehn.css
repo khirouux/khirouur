@@ -1,0 +1,234 @@
+body{
+margin:0px;
+padding:0px;
+ 
+}
+/* start navbar */
+.navbar{
+	background-color:#9b59b6; 
+    width: 100%;
+    height: 170px;
+    padding-top: 25px;
+
+}
+
+.navbar p{
+font-size:55px;
+font-family:Helvatica,Arial,sans-serif;
+float:left; 
+margin-top:auto;
+padding:20px;
+color:black;
+}
+.navbar ul{
+list-style-type: none;
+float: left;
+margin-left: 45%;
+width: 40%;
+margin-top:0px;
+padding-top: 0px;
+
+}
+.navbar ul li{
+display: inline-block;
+margin-left: 5%;
+font-family:time new roman;
+color:#c0392b;
+border-left: 2px solid #ccc;
+}
+.navbar ul li:hover{
+color: #ecf0f1;
+}
+/*header*/
+.header{
+width:100%;
+height:500px;
+background-image: url(https://mapio.net/images-p/39379368.jpg);
+background-size: cover;
+position: relative;
+}
+.opacity{
+width: 100%;
+height: 100%;
+background-color:black;
+opacity:0;
+}
+.header p{
+position:absolute;
+top:25px;
+left: 30%;
+color: black;
+border:  solid 3px;
+font-weight:bold;
+font-size:50px;
+border-bottom: solid black ;
+
+}
+/*about*/
+.about{
+padding-top: 0px 0;
+
+}
+.about p{
+width:35%;
+font-family: italic;
+font-size: 20px;
+float: left;
+margin-left: 5%;
+}
+.about p span{
+display: block;
+font-family: time new roman;
+font-size: 30px;
+color: red;
+border-bottom: solid thin red;
+text-transform: uppercase;
+width: 30%;
+margin-bottom: 30px;
+}
+.about{
+padding:80px 0;
+}
+.about img{
+width:50%;
+height: 400px;
+margin-right:5%;
+padding-top:0%; 
+margin-left:50px ;
+margin-top: 10px; 
+box-shadow: 20px 0 10px black;
+border-spacing: 20%;
+}
+/*services*/
+.services{
+padding: 50px 0;
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/27/Montagne_de_la_commune_de_Men%C3%A2a_5_%28Wilaya_de_Batna%29.jpg);
+background-size: cover;
+position: relative;
+height: 500px;
+}
+.services .opacity{
+width: 100%;
+height: 100%;
+background-color: black;
+opacity: .7;
+position: absolute;
+left: 0;
+top: 0;
+}
+.services span{
+color:red;
+font-size: 80px;
+font-family: comfortaa;
+border-bottom: solid thin red;
+position: absolute;
+left: 37%;
+z-index: 2;
+}
+.services .opacity .item{
+width: 20%;
+height: 300px;
+color: white;
+font-family: Karla;
+font-size: 25px;
+text-align: center;
+margin-top: 200px;
+margin-left: 8%;
+float: left;
+
+}
+.services .opacity .item a{
+background-color: black;
+padding: 12px;
+}
+/*contact*/
+.contact{
+padding: 100px 0;
+}
+.contact .item{
+width: 25%;
+height: 100px;
+float: left;
+box-shadow: 0 0 20px black;
+margin-left: 6%;
+text-align: center;
+font-family: karla;
+padding-top: 30px;
+font-size:20px;
+border-radius: 10px;
+}
+.contact ul{
+list-style-type: none;
+margin-top: 200px;
+margin-left: 30%;
+}
+.contact ul a{
+display: inline;
+margin-left: 5%;
+height: 20%;
+}
+.copyright{
+width: 100%;
+height: 50px;
+background-color:  black;
+color: #1abc9c;
+padding: 0px 0;
+text-align: center;
+}
+/*login*/
+.login-box{
+width: 280px;
+position: absolute;
+top: 65%;
+left: 50%;
+transform: translate(-50%, -50%);
+    color: black;
+
+}
+.login-box h1{
+font: left;
+font-size: 70px;
+border-bottom: 8px solid red;
+margin-bottom: 20px;
+padding: 10px 0;
+}
+.textbox{
+width: 100%;
+overflow: hidden;
+font-size: 20px;
+padding: 8px 0;
+margin: 8px 0;
+border-bottom: 3px solid #2c3e50;
+}
+.textbox i{
+width: 30px;
+float: left;
+text-align: center;
+}
+.textbox input{
+border: none;
+outline: none;
+background: none;
+color: white;
+font-size: 18px;
+width: 80%;
+float: left;
+margin: 0 10px;
+}
+.btn{
+width: 100%;
+background: no-repeat;
+border: 5px solid red;
+color: perple;
+padding: 9px;
+font-family: consolas;
+font-size: 50px;
+cursor: pointer;
+margin: 14px 0;
+box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+transition: 0,2px;
+}
+
+
+
+
